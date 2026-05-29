@@ -84,8 +84,8 @@ chatOptions.addEventListener("click", (e) => {
     let response = "";
 
     if (role === "recruiter") {
-      response = `<p>Welcome, recruiter! Here's my <a href="assets/Skand_Sharma_Resume.pdf" 
-      target="_blank">resume</a> and a quick look at my skills: product strategy, UX design, market research, and execution. Thanks for stopping by!</p>`;
+      response = `<p>Welcome, recruiter! Here's my <a href="assets/Divija_Sharma_Resume.pdf" 
+      target="_blank">resume</a> and a quick look at my skills: software engineering, product strategy, UX design and execution. Thanks for stopping by!</p>`;
       chatMessages.innerHTML = response;
       chatOptions.style.display = "none";
 
@@ -94,9 +94,9 @@ chatOptions.addEventListener("click", (e) => {
       chatMessages.innerHTML = `
         <p>Let's play a game of Two Truths and a Lie. Click on the one you think is the lie:</p>
         <ul class="game-options">
-          <li data-truth="false">Skand holds a green belt in Choi Kwang Do</li>
-          <li data-truth="true">Skand has a podcast where she reads Shakespeare's works</li>
-          <li data-truth="true">Skand can identify all 196 UN recognised national flags</li>
+          <li data-truth="false">Divija has a podcast where she reads Shakespeare's works</li>
+          <li data-truth="true">Divija holds a blue belt in Choi Kwang Do</li>
+          <li data-truth="true">Divija can identify all 196 UN recognised national flags</li>
         </ul>
       `;
       chatOptions.style.display = "none";
